@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Клиентское приложение</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Клиентское приложение</h1>
+    <form id="client-form">
+        <label for="thread-count">Количество потоков:</label>
+        <input type="number" id="thread-count" name="threadCount" min="1" value="1">
+        <button type="button" id="start-button">Запросить данные</button>
+        <button type="button" id="send-button">Отправить данные</button>
+    </form>
+    <div id="status"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
